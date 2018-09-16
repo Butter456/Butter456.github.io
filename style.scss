@@ -14,26 +14,27 @@
 /**************/
 
 html {
-  font-size: 100%;
+  font-size: 120%;
 }
 
 body {
 	background-image: url("//dotesports-media-cdn-tqgiyve.stackpathdns.com/wp-content/uploads/2018/08/11090657/095b3234-f741-4e14-b87b-a8f857eca839.jpg");
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+        background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
 }
 
 .container {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
-  width: 100%;
+  width: 80%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
+  font-family: "Times New Roman", serif;
+  color: rgb(0, 231, 71);
+  font-weight: normal;
 
   line-height: 1.7;
   margin: 1em 0 15px;
